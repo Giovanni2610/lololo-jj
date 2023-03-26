@@ -1,0 +1,128 @@
+
+/* Esconde la barra de scroll */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.box-shadow {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.animated_container {
+  animation: appear .7s ease-in;
+}
+
+.animated_view_component {
+  animation: appear .5s ease-in;
+}
+
+.animated_view_component-2 {
+  animation: appear .9s ease-in;
+}
+
+.animated_view_component-3 {
+  animation: appear 1.2s ease-in;
+}
+
+.animated_view_component-4 {
+  animation: appear 1.8s ease-in;
+}
+
+.animated_view_component-5 {
+  animation: appear 2.2s ease-in;
+}
+
+.custom-text {
+  color: #0000;
+}
+
+.customtheme {
+  background-color: #000;
+}
+
+.dashboard-container {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.custom_radius {
+  border-top-right-radius: 20px;
+}
+
+.custom-link {
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  background-color: #083d68d9;
+  transform: translateX(100px);
+  color: #fff
+}
+
+.container-custom {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.custom-accordion {
+  background-color: red;
+  padding: none;
+  margin: none;
+}
+
+.custom-form {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+}
+
+.custom-select-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.custom-checkbox-container {
+  grid-template-columns: 150px 150px 150px;
+  gap: 10px;
+}
+
+.custom-atribute-container {
+  grid-template-columns: 150px 100px 50px;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-atributes {
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 10px;
+  overflow: scroll;
+}
+
+/* NOTE: Animación de aparición del formulario 🤓 */
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* Custom media querys */
+@media(max-width: 580px) {
+  .custom-dimensions {
+    display: none;
+  }
+}
+
+/* TODO: Al terminar de crear las views adaptar la interfaz */
