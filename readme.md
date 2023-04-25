@@ -19,4 +19,28 @@ yarn dev o npm run dev: para poder correr el proyecto de manera local.
 
 
 ****
-Añadir carrito de compras
+
+<h3>🔥 Nuevos cambios y errores corregidos</h3>
+
+****
+
+* <strong>Solucionado</strong>: error con la anidación de los links.
+
+* <strong>Solucionado</strong>: Ahora al presionar el boton "Agregar producto" o "Editar producto" cambia el titulo dependiendo de la opción seleccionada.
+
+* <strong>Solucionado</strong>: Solucionado nombre de las rutas ahora corresponde con su boton ejemplo: "productos" corresponde con la ruta "productos" y editar productos es "productos/editar".
+
+* <strong>Solucionado</strong>: Solucionado la visualización del formulario para añadir productos se remplazaron algunos contenedores con la propiedad Grid a Flex-box.
+
+* <strong>Solucionado</strong>: Problema con el boton dropdown y la posición de sus elementos.
+
+* <strong>Nuevo</strong>: Se añadio una animación al desplegar el dropdown.
+
+* <strong>Nuevo</strong>: Se creo la estructura y algunas rutas referentes al modulo de ventas.
+
+***
+
+
+
+
+
